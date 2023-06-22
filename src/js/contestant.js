@@ -10,6 +10,9 @@ export default class Contestant {
     }
     setCharisma() {
         this.charisma += Math.floor(Math.random() * 9) +1;
-        console.log(this.charisma);
+
+    }
+    setStrategy() {
+        this.strategy += Math.floor(Math.random() * 9) +1;
     }
 }
