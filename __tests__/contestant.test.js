@@ -46,8 +46,11 @@ describe("Contestant and methods",  () => {
         dude.dates();
         expect(dude.connection).toBeGreaterThanOrEqual(-1);
     })
-
-
-
-
-});
+    test("should level up the contestant", () =>{
+        dude.levelUp();
+        expect(dude.charisma).toEqual(1);
+        expect(dude.strategy).toEqual(1);
+        expect(dude.empathy).toEqual(1);
+        expect(dude.confidence).toEqual(1);
+    })
+    });

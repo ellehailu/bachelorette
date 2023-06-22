@@ -31,5 +31,10 @@ export default class Contestant {
             this.connection += -1;
         }
     }
-    
+    levelUp(){
+        // this.charisma += 1;
+        // this.confidence += 1;
+        // this.empathy += 1;
+        // this.strategy += 1;
+    }
 }
