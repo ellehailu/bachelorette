@@ -15,4 +15,7 @@ export default class Contestant {
     setStrategy() {
         this.strategy += Math.floor(Math.random() * 9) +1;
     }
+    setConfidence() {
+        this.confidence += Math.floor(Math.random() * 9) +1;
+    }
 }

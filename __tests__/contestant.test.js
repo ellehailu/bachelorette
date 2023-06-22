@@ -27,11 +27,11 @@ describe("Contestant and methods",  () => {
         expect(dude.strategy).toBeLessThanOrEqual(10);
         expect(dude.strategy).toBeGreaterThanOrEqual(1);
     })
-    // test("set confidence to object", () => {
-    //     dude.setConfidence();
-    //     expect(dude.charisma).toBeLessThanOrEqual(10);
-    //     expect(dude.charisma).toBeGreaterThanOrEqual(1);
-    // })
+    test("set strategy to object", () => {
+        dude.setConfidence();
+        expect(dude.confidence).toBeLessThanOrEqual(10);
+        expect(dude.confidence).toBeGreaterThanOrEqual(1);
+    })
 
 
 
