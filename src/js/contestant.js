@@ -32,9 +32,9 @@ export default class Contestant {
         }
     }
     levelUp(){
-        // this.charisma += 1;
-        // this.confidence += 1;
-        // this.empathy += 1;
-        // this.strategy += 1;
+        this.charisma += 1;
+        this.confidence += 1;
+        this.empathy += 1;
+        this.strategy += 1;
     }
 }
