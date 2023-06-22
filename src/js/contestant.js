@@ -18,4 +18,7 @@ export default class Contestant {
     setConfidence() {
         this.confidence += Math.floor(Math.random() * 9) +1;
     }
+    setEmpathy() {
+        this.empathy += Math.floor(Math.random() * 9) +1;
+    }
 }

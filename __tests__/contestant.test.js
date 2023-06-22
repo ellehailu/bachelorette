@@ -32,6 +32,11 @@ describe("Contestant and methods",  () => {
         expect(dude.confidence).toBeLessThanOrEqual(10);
         expect(dude.confidence).toBeGreaterThanOrEqual(1);
     })
+    test("set strategy to object", () => {
+        dude.setEmpathy();
+        expect(dude.empathy).toBeLessThanOrEqual(10);
+        expect(dude.empathy).toBeGreaterThanOrEqual(1);
+    })
 
 
 
