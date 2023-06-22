@@ -8,4 +8,8 @@ export default class Contestant {
         this.empathy = 0;
         this.confidence = 0;
     }
+    setCharisma() {
+        this.charisma += Math.floor(Math.random() * 9) +1;
+        console.log(this.charisma);
+    }
 }
