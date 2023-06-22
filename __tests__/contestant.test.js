@@ -16,6 +16,7 @@ describe("Contestant and methods",  () => {
         expect(dude.strategy).toEqual(0);
         expect(dude.confidence).toEqual(0);
         expect(dude.empathy).toEqual(0);
+        expect(dude.connection).toEqual(0);
     });
     test("set charisma to object", () => {
         dude.setCharisma();
@@ -36,6 +37,14 @@ describe("Contestant and methods",  () => {
         dude.setEmpathy();
         expect(dude.empathy).toBeLessThanOrEqual(10);
         expect(dude.empathy).toBeGreaterThanOrEqual(1);
+    })
+    test("set connection value to object", () =>{
+        dude.setEmpathy();
+        dude.setConfidence();
+        dude.setStrategy();
+        dude.setCharisma();
+        dude.dates();
+        expect(dude.connection).toBeGreaterThanOrEqual(-1);
     })
 
 
