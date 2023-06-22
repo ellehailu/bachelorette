@@ -9,6 +9,7 @@ describe("Contestant and methods",  () => {
     });
 
     test("Make a contestant object", () => {
+        // let dude = new Contestant("Bob", 84, "Salesman");
         expect(dude.name).toEqual("Bob");
         expect(dude.age).toEqual(84);
         expect(dude.profession).toEqual("Salesman");
@@ -16,8 +17,7 @@ describe("Contestant and methods",  () => {
         expect(dude.strategy).toEqual(0);
         expect(dude.confidence).toEqual(0);
         expect(dude.empathy).toEqual(0);
-    })
-
+    });
 
 
 
